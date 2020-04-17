@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Udemy-Reactive"
+    }
+  },
+  "defaultProject": "Udemy-Reactive",
+  "cli": {
+    "analytics": "e3b8fcf0-c4b1-448f-9a71-cfb4f5a5750c"
+  }
 }
